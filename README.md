@@ -1,45 +1,40 @@
 
-# ThesisForge - Intelligent Knowledge Architect
+# ThesisForge - Intelligent Research Architect
 
 ## Overview
-**ThesisForge** is an advanced knowledge management application designed to transform unstructured technical text into structured, interactive visualizations and professional documentation. Powered by **Google's Gemini 2.5 Flash** model, it acts as an intelligent partner, helping you break down complex documentation (like onboarding manuals, technical specs, or regulations) into hierarchical mind maps, actionable process flows, and system architecture diagrams.
+**ThesisForge** is a specialized AI-powered research companion designed to guide Doctoral and Master's candidates from initial concept to a rigorous, fully structured thesis roadmap. 
 
-Beyond visualization, it now features a robust **Document Builder** and **Dependency Tracker**, allowing you to curate content node-by-node and ensure consistency across evolving data.
+Unlike generic mind-mapping tools, ThesisForge enforces strict academic standards. Powered by **Google's Gemini 2.5 Flash** model, it acts as a **Disciplined Research Assistant**, helping you brainstorm viable thesis angles, score their feasibility against your profile, and automatically generate the standard 7-chapter academic structure (Introduction, Literature Review, Research Questions, Methodology, Results, Discussion, Conclusion).
 
 ---
 
 ## ⚡ Key Features
 
-### 🧠 Intelligent Visualization
-*   **Automated Mind Mapping**: Instantly converts text into a node-based tree structure. Nodes are intelligently classified as "Process" (actionable) or "Info" (knowledge).
-*   **Recursive Expansion**: Select any node and ask the AI to "Expand" it, generating a new layer of sub-concepts based on the original text context.
-*   **Concept Cloud**: Client-side NLP analysis extracts recurring themes. Click any concept to instantly filter and highlight relevant nodes across the entire tree.
+### 🎓 Thesis Exploration Engine
+*   **Candidate Generation**: Input a broad topic (e.g., "AI in Healthcare") and receive 3 distinct, viable thesis angles (e.g., Quantitative Analysis, System Design, Policy Review).
+*   **Feasibility Scoring**: The AI evaluates each candidate based on Novelty, Ethical Complexity, Data Availability, and alignment with your specific **Candidate Profile** (Skills, Degree Level).
 
-### 📝 Document Builder & Editor
-*   **Section-by-Section Drafting**: Open the **Doc** editor on any node to write or AI-generate summaries specific to that section.
-*   **Structured Export**: Compiles your entire map hierarchy, including user-written summaries, AI-generated details, and process diagrams, into a single, formatted HTML report suitable for sharing.
+### 🧠 Structured Academic Roadmap
+*   **Standardized Architecture**: Automatically builds the required academic tree: *Introduction -> Lit Review -> Research Questions -> Methodology -> Results -> Discussion -> Conclusion*.
+*   **Recursive Expansion**: Drill down into any chapter to generate sub-sections, specific arguments, or theoretical frameworks based on context.
+*   **Concept Cloud**: Visualize and filter your thesis by recurring themes and keywords.
 
-### 🛡️ Dependency Tracking (New)
-*   **Watch Logic**: Link nodes together (e.g., a "Summary" node watching a "Technical Spec" node).
-*   **Auto-Flagging**: If a source node is updated or deleted, dependent nodes are automatically flagged for review to ensure data consistency.
-*   **Visual Indicators**: Nodes show specific icons when they have content or active dependencies.
+### 📝 Academic Writer & Editor
+*   **Skeleton Generation**: Ask the AI to draft high-density "Details" for any node, providing a bullet-point skeleton of key theoretical concepts, arguments, and data needs.
+*   **Refinement**: Use specific prompts to refine tone, expand on specific points, or challenge the logic.
+*   **Reference Manager**: AI-suggested academic citations (Books, Journals) relevant to specific sections, or manage your own library.
 
-### 🔄 Process Engineering
-*   **Multi-View Process Maps**: Transform static procedures into:
-    *   **Standard Flowcharts**: With decision gates and loops.
-    *   **Swimlane Diagrams**: organized by Role/Actor.
-    *   **Sequence Diagrams**: visualized via Mermaid.js.
-*   **Interactive Editing**: Manually refine steps, change roles, or toggle "End States".
+### 🔄 Methodology & Process Engineering
+*   **Process Mapping**: Transform your "Methodology" chapter into visual flowcharts. Map out experimental protocols, data collection pipelines, or software algorithms.
+*   **Visual Logic**: Support for decision gates, loops, and end-states to ensure your research design is robust.
 
-### 🌐 Systems Architecture
-*   **Mesh Table & Graph**: Generates a high-level architectural view identifying "Actors" (People, Systems) and their "Interactions".
-*   **Sequence Diagram Generator**: Select any interaction in the table to auto-generate a Mermaid.js Sequence Diagram describing the data exchange. *Includes persistence to save diagrams between sessions.*
-*   **Data Flow Analysis**: Filter the map by specific data types (e.g., "Login Credentials", "Flight Plan").
+### 🛡️ Rigor & Consistency
+*   **Dependency Tracking**: Link nodes together (e.g., *Research Question 1* <-> *Conclusion*). If you change the question, the conclusion is flagged for review.
+*   **AI Review Board**: Ask the AI to generate "Critiques" of your specific sections, simulating a tough thesis defense or supervisor review.
 
-### 🛠️ Professional Tools
-*   **Session Management**: Save/Load your workspace via JSON. Full Undo/Redo history.
-*   **High-Res Export**: Download PNG snapshots of maps, flowcharts, and architecture diagrams (with watermark).
-*   **Themes**: Customizable color palettes for accessibility and presentation.
+### 🌐 Systems Architecture (Technical Theses)
+*   **Systems View**: For engineering/CS theses, generate high-level architecture diagrams identifying Actors, Systems, and Interactions.
+*   **Sequence Diagrams**: Auto-generate Mermaid.js sequence diagrams to visualize complex technical interactions.
 
 ---
 
