@@ -6,6 +6,8 @@
 
 Unlike generic mind-mapping tools, ThesisForge enforces strict academic standards. Powered by **Google's Gemini 2.5 Flash** model, it acts as a **Disciplined Research Assistant**, helping you brainstorm viable thesis angles, score their feasibility against your profile, and automatically generate the standard 7-chapter academic structure (Introduction, Literature Review, Research Questions, Methodology, Results, Discussion, Conclusion).
 
+<img width="1159" height="856" alt="Screenshot 2025-11-28 003228" src="https://github.com/user-attachments/assets/7e720667-21bf-4576-8ff3-05770bd28fa0" />
+
 ---
 
 ## ⚡ Key Features
